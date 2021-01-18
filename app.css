@@ -1,0 +1,95 @@
+.container {
+    width: 250px;
+    border: 1px solid black;
+}
+
+.itens {
+    /* width: 100%; */
+    border: 1px solid red;
+}
+
+/* Alinhamento através do container pai */
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    /* flex-direction: column; */
+}
+
+.flex2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex3 {
+    display: flex;
+    justify-content: center;
+}
+
+.flex4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex5 {
+    display: flex;
+    justify-content: space-between; /* Trabalhar na Horizontal */
+}
+
+.flex6 {
+    display: flex;
+    justify-content: space-around;  /* Margem aplicada a cada elemento */
+}
+
+.flex7 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Trabalhar na Vertical */ /* align-items funciona bem para coluna, para row não faz tanta diferença */
+}
+
+.flex8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* align-items funciona bem para coluna, para row não faz tanta diferença */
+}
+
+.flex9 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* align-items funciona bem para coluna, para row não faz tanta diferença */
+}
+
+.flex10 {
+    display: flex;
+    align-content: space-between;    
+}
+
+/* Alinhamento através dos elementos filho */
+
+.container2 {
+    width: 250px;
+    border: 1px solid black;
+    height: 200px;
+}
+
+.flex11 {
+    display: flex;
+}
+
+.itens2 {
+    border: 1px solid red;
+    align-self: flex-start;
+}
+
+.itens3 {
+    border: 1px solid red;
+    align-self: center;
+}
+
+.itens4 {
+    border: 1px solid red;
+    align-self: flex-end;
+}
+
+.fx {
+    flex: 1;
+}
